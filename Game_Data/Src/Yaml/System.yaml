@@ -37,7 +37,7 @@ root: !ruby/object:RPG::System
     name: 002-System02
     pitch: 100
     volume: 80
-  edit_map_id: 4
+  edit_map_id: 3
   elements: 
   - ""
   - Fire
@@ -92,8 +92,8 @@ root: !ruby/object:RPG::System
     pitch: 100
     volume: 80
   start_map_id: 1
-  start_x: 9
-  start_y: 12
+  start_x: 6
+  start_y: 9
   switches: 
   - 
   - ""

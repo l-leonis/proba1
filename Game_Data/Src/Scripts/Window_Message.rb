@@ -12,7 +12,7 @@ class Window_Message < Window_Selectable
     super(80, 304, 480, 160)
     self.contents = Bitmap.new(width - 32, height - 32)
     self.visible = false
-    self.z = 5000
+    self.z = 9998
     @fade_in = false
     @fade_out = false
     @contents_showing = false
