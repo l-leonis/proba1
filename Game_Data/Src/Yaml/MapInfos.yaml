@@ -19,5 +19,12 @@ root:
     name: MAP003
     order: 3
     parent_id: 0
-    scroll_x: 518
-    scroll_y: 436
+    scroll_x: 400
+    scroll_y: 320
+  4: !ruby/object:RPG::MapInfo 
+    expanded: false
+    name: "Vir\xC3\xA1gos kisl\xC3\xA1ny"
+    order: 4
+    parent_id: 0
+    scroll_x: 320
+    scroll_y: 240
