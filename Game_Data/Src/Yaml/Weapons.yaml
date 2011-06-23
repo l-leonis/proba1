@@ -1,0 +1,675 @@
+--- 
+root: 
+- 
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 7
+  atk: 112
+  description: Fighter's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 001-Weapon01
+  id: 1
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Bronze Sword
+  pdef: 0
+  plus_state_set: []
+
+  price: 500
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 7
+  atk: 140
+  description: Fighter's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 001-Weapon01
+  id: 2
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Iron Sword
+  pdef: 0
+  plus_state_set: []
+
+  price: 1200
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 7
+  atk: 175
+  description: Fighter's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 001-Weapon01
+  id: 3
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Steel Sword
+  pdef: 0
+  plus_state_set: []
+
+  price: 3200
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 7
+  atk: 218
+  description: Fighter's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 001-Weapon01
+  id: 4
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Mythril Sword
+  pdef: 0
+  plus_state_set: []
+
+  price: 7800
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 8
+  atk: 110
+  description: Lancer's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 002-Weapon02
+  id: 5
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Bronze Spear
+  pdef: 0
+  plus_state_set: []
+
+  price: 490
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 8
+  atk: 137
+  description: Lancer's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 002-Weapon02
+  id: 6
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Iron Spear
+  pdef: 0
+  plus_state_set: []
+
+  price: 1200
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 8
+  atk: 171
+  description: Lancer's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 002-Weapon02
+  id: 7
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Steel Spear
+  pdef: 0
+  plus_state_set: []
+
+  price: 3000
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 8
+  atk: 214
+  description: Lancer's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 002-Weapon02
+  id: 8
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Mythril Spear
+  pdef: 0
+  plus_state_set: []
+
+  price: 7600
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 9
+  atk: 114
+  description: Warrior's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 003-Weapon03
+  id: 9
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Bronze Axe
+  pdef: 0
+  plus_state_set: []
+
+  price: 520
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 9
+  atk: 142
+  description: Warrior's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 003-Weapon03
+  id: 10
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Iron Axe
+  pdef: 0
+  plus_state_set: []
+
+  price: 1300
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 9
+  atk: 178
+  description: Warrior's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 003-Weapon03
+  id: 11
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Steel Axe
+  pdef: 0
+  plus_state_set: []
+
+  price: 3200
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 9
+  atk: 222
+  description: Warrior's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 003-Weapon03
+  id: 12
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Mythril Axe
+  pdef: 0
+  plus_state_set: []
+
+  price: 8000
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 10
+  atk: 108
+  description: Thief's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 004-Weapon04
+  id: 13
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Bronze Knife
+  pdef: 0
+  plus_state_set: []
+
+  price: 400
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 10
+  atk: 135
+  description: Thief's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 004-Weapon04
+  id: 14
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Iron Knife
+  pdef: 0
+  plus_state_set: []
+
+  price: 1000
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 10
+  atk: 168
+  description: Thief's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 004-Weapon04
+  id: 15
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Steel Knife
+  pdef: 0
+  plus_state_set: []
+
+  price: 4500
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 10
+  atk: 210
+  description: Thief's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 004-Weapon04
+  id: 16
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Mythril Knife
+  pdef: 0
+  plus_state_set: []
+
+  price: 6200
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 11
+  atk: 111
+  description: Hunter's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 005-Weapon05
+  id: 17
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Bronze Bow
+  pdef: 0
+  plus_state_set: []
+
+  price: 470
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 11
+  atk: 138
+  description: Hunter's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 005-Weapon05
+  id: 18
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Iron Bow
+  pdef: 0
+  plus_state_set: []
+
+  price: 1200
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 11
+  atk: 173
+  description: Hunter's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 005-Weapon05
+  id: 19
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Steel Bow
+  pdef: 0
+  plus_state_set: []
+
+  price: 2900
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 11
+  atk: 216
+  description: Hunter's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 005-Weapon05
+  id: 20
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Mythril Bow
+  pdef: 0
+  plus_state_set: []
+
+  price: 7300
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 12
+  atk: 115
+  description: Gunner's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 006-Weapon06
+  id: 21
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Bronze Gun
+  pdef: 0
+  plus_state_set: []
+
+  price: 550
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 12
+  atk: 143
+  description: Gunner's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 006-Weapon06
+  id: 22
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Iron Gun
+  pdef: 0
+  plus_state_set: []
+
+  price: 1300
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 12
+  atk: 179
+  description: Gunner's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 006-Weapon06
+  id: 23
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Steel Gun
+  pdef: 0
+  plus_state_set: []
+
+  price: 3400
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 12
+  atk: 224
+  description: Gunner's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 006-Weapon06
+  id: 24
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Mythril Gun
+  pdef: 0
+  plus_state_set: []
+
+  price: 8500
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 13
+  atk: 109
+  description: Cleric's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 007-Weapon07
+  id: 25
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Bronze Mace
+  pdef: 0
+  plus_state_set: []
+
+  price: 440
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 13
+  atk: 136
+  description: Cleric's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 007-Weapon07
+  id: 26
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Iron Mace
+  pdef: 0
+  plus_state_set: []
+
+  price: 1100
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 13
+  atk: 170
+  description: Cleric's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 007-Weapon07
+  id: 27
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Steel Mace
+  pdef: 0
+  plus_state_set: []
+
+  price: 2700
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 13
+  atk: 212
+  description: Cleric's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 007-Weapon07
+  id: 28
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Mythril Mace
+  pdef: 0
+  plus_state_set: []
+
+  price: 6800
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 14
+  atk: 107
+  description: Mage's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 008-Weapon08
+  id: 29
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Bronze Rod
+  pdef: 0
+  plus_state_set: []
+
+  price: 420
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 14
+  atk: 133
+  description: Mage's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 008-Weapon08
+  id: 30
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Iron Rod
+  pdef: 0
+  plus_state_set: []
+
+  price: 1000
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 14
+  atk: 167
+  description: Mage's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 008-Weapon08
+  id: 31
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Steel Rod
+  pdef: 0
+  plus_state_set: []
+
+  price: 2600
+  str_plus: 0
+- !ruby/object:RPG::Weapon 
+  agi_plus: 0
+  animation1_id: 0
+  animation2_id: 14
+  atk: 208
+  description: Mage's Weapon.
+  dex_plus: 0
+  element_set: []
+
+  icon_name: 008-Weapon08
+  id: 32
+  int_plus: 0
+  mdef: 0
+  minus_state_set: []
+
+  name: Mythril Rod
+  pdef: 0
+  plus_state_set: []
+
+  price: 6500
+  str_plus: 0

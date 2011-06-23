@@ -1,0 +1,1032 @@
+--- 
+root: 
+- 
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 15
+  common_event_id: 0
+  consumable: true
+  description: Restores HP to one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 021-Potion01
+  id: 1
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 105-Heal01
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Potion
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 50
+  recover_hp: 500
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 16
+  common_event_id: 0
+  consumable: true
+  description: Restores HP to one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 021-Potion01
+  id: 2
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 106-Heal02
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: High Potion
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 150
+  recover_hp: 2000
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 17
+  common_event_id: 0
+  consumable: true
+  description: Restores HP to one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 021-Potion01
+  id: 3
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 107-Heal03
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Full Potion
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 450
+  recover_hp: 9999
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 18
+  common_event_id: 0
+  consumable: true
+  description: Restores SP to one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 022-Potion02
+  id: 4
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 108-Heal04
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Perfume
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 100
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 500
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 19
+  common_event_id: 0
+  consumable: true
+  description: Restores SP to one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 022-Potion02
+  id: 5
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 109-Heal05
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: High Perfume
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 300
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 2000
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 20
+  common_event_id: 0
+  consumable: true
+  description: Restores SP to one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 022-Potion02
+  id: 6
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 110-Heal06
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Full Perfume
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 900
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 9999
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 21
+  common_event_id: 0
+  consumable: true
+  description: Restores HP/SP to one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 023-Potion03
+  id: 7
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 111-Heal07
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Elixir
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 600
+  recover_hp: 2000
+  recover_hp_rate: 0
+  recover_sp: 2000
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 22
+  common_event_id: 0
+  consumable: true
+  description: Restores HP/SP to one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 023-Potion03
+  id: 8
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 112-Heal08
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Full Elixir
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 1200
+  recover_hp: 9999
+  recover_hp_rate: 0
+  recover_sp: 9999
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 25
+  common_event_id: 0
+  consumable: true
+  description: Revives one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 024-Potion04
+  id: 9
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 115-Raise01
+    pitch: 100
+    volume: 80
+  minus_state_set: 
+  - 1
+  name: Tonic
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 150
+  recover_hp: 0
+  recover_hp_rate: 50
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 5
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 26
+  common_event_id: 0
+  consumable: true
+  description: Revives one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 024-Potion04
+  id: 10
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 116-Raise02
+    pitch: 100
+    volume: 80
+  minus_state_set: 
+  - 1
+  name: Full Tonic
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 350
+  recover_hp: 0
+  recover_hp_rate: 100
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 5
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 23
+  common_event_id: 0
+  consumable: true
+  description: Removes Venom state of one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 025-Herb01
+  id: 11
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 113-Remedy01
+    pitch: 100
+    volume: 80
+  minus_state_set: 
+  - 3
+  name: Antidote
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 40
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 24
+  common_event_id: 0
+  consumable: true
+  description: Restores states to one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 026-Herb02
+  id: 12
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 114-Remedy02
+    pitch: 100
+    volume: 80
+  minus_state_set: 
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  name: Dispel Herb
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 120
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 63
+  common_event_id: 0
+  consumable: true
+  description: Up ATK of all allies.
+  element_set: []
+
+  hit: 100
+  icon_name: 035-Item04
+  id: 13
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Sharp Stone
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: 
+  - 13
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 4
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 64
+  common_event_id: 0
+  consumable: true
+  description: Up PDEF of all allies.
+  element_set: []
+
+  hit: 100
+  icon_name: 035-Item04
+  id: 14
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Barrier Stone
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: 
+  - 14
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 4
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 65
+  common_event_id: 0
+  consumable: true
+  description: Up MDEF of all allies.
+  element_set: []
+
+  hit: 100
+  icon_name: 035-Item04
+  id: 15
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Resist Stone
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: 
+  - 15
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 4
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 3
+  animation2_id: 66
+  common_event_id: 0
+  consumable: true
+  description: Up EVA of all allies.
+  element_set: []
+
+  hit: 100
+  icon_name: 035-Item04
+  id: 16
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Blink Stone
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: 
+  - 16
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 4
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Increases 50 MaxHP of one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 042-Item11
+  id: 17
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 056-Right02
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Seed of Life
+  occasion: 2
+  parameter_points: 50
+  parameter_type: 1
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Increases 50 MaxSP of one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 042-Item11
+  id: 18
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 056-Right02
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Seed of Mana
+  occasion: 2
+  parameter_points: 50
+  parameter_type: 2
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Increases 5 STR of one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 042-Item11
+  id: 19
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 056-Right02
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Seed of Strength
+  occasion: 2
+  parameter_points: 5
+  parameter_type: 3
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Increases 5 DEX of one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 042-Item11
+  id: 20
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 056-Right02
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Seed of Dextality
+  occasion: 2
+  parameter_points: 5
+  parameter_type: 4
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Increases 5 AGI of one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 042-Item11
+  id: 21
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 056-Right02
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Seed of Agility
+  occasion: 2
+  parameter_points: 5
+  parameter_type: 5
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Increases 5 INT of one ally.
+  element_set: []
+
+  hit: 100
+  icon_name: 042-Item11
+  id: 22
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: 056-Right02
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Seed of Intelligence
+  occasion: 2
+  parameter_points: 5
+  parameter_type: 6
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 200
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 3
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 029-Key01
+  id: 23
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Door Key
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 029-Key01
+  id: 24
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Chest Key
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 029-Key01
+  id: 25
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Jail Key
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 032-Item01
+  id: 26
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Pouch
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 033-Item02
+  id: 27
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Letter
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 037-Item06
+  id: 28
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Feather
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 038-Item07
+  id: 29
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Map
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 039-Item08
+  id: 30
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Lithograph
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 040-Item09
+  id: 31
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Card
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  animation1_id: 0
+  animation2_id: 0
+  common_event_id: 0
+  consumable: true
+  description: Event Item.
+  element_set: []
+
+  hit: 100
+  icon_name: 041-Item10
+  id: 32
+  mdef_f: 0
+  menu_se: !ruby/object:RPG::AudioFile 
+    name: ""
+    pitch: 100
+    volume: 80
+  minus_state_set: []
+
+  name: Fruit
+  occasion: 3
+  parameter_points: 0
+  parameter_type: 0
+  pdef_f: 0
+  plus_state_set: []
+
+  price: 0
+  recover_hp: 0
+  recover_hp_rate: 0
+  recover_sp: 0
+  recover_sp_rate: 0
+  scope: 0
+  variance: 0

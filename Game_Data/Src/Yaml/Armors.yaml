@@ -1,0 +1,611 @@
+--- 
+root: 
+- 
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Shield for front position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 009-Shield01
+  id: 1
+  int_plus: 0
+  kind: 0
+  mdef: 20
+  name: Bronze Shield
+  pdef: 22
+  price: 390
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Shield for front position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 009-Shield01
+  id: 2
+  int_plus: 0
+  kind: 0
+  mdef: 25
+  name: Iron Shield
+  pdef: 27
+  price: 970
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Shield for front position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 009-Shield01
+  id: 3
+  int_plus: 0
+  kind: 0
+  mdef: 31
+  name: Steel Shield
+  pdef: 34
+  price: 2400
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Shield for front position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 009-Shield01
+  id: 4
+  int_plus: 0
+  kind: 0
+  mdef: 39
+  name: Mythirl Shield
+  pdef: 42
+  price: 6000
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Helmet for front & middle position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 010-Head01
+  id: 5
+  int_plus: 0
+  kind: 1
+  mdef: 47
+  name: Bronze Helm
+  pdef: 53
+  price: 320
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Helmet for front & middle position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 010-Head01
+  id: 6
+  int_plus: 0
+  kind: 1
+  mdef: 58
+  name: Iron Helm
+  pdef: 66
+  price: 800
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Helmet for front & middle position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 010-Head01
+  id: 7
+  int_plus: 0
+  kind: 1
+  mdef: 73
+  name: Steel Helm
+  pdef: 82
+  price: 2000
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Helmet for front & middle position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 010-Head01
+  id: 8
+  int_plus: 0
+  kind: 1
+  mdef: 91
+  name: Mythril Helm
+  pdef: 103
+  price: 5000
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Hat for rear position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 011-Head02
+  id: 9
+  int_plus: 0
+  kind: 1
+  mdef: 50
+  name: Cotton hat
+  pdef: 46
+  price: 250
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Hat for rear position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 011-Head02
+  id: 10
+  int_plus: 0
+  kind: 1
+  mdef: 62
+  name: Felt Hat
+  pdef: 57
+  price: 620
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Hat for rear position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 011-Head02
+  id: 11
+  int_plus: 0
+  kind: 1
+  mdef: 78
+  name: Magic Hat
+  pdef: 71
+  price: 1500
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Hat for rear position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 011-Head02
+  id: 12
+  int_plus: 0
+  kind: 1
+  mdef: 97
+  name: Saint Hat
+  pdef: 89
+  price: 3900
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Body armor for front position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 013-Body01
+  id: 13
+  int_plus: 0
+  kind: 2
+  mdef: 71
+  name: Bronze Armor
+  pdef: 78
+  price: 550
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Body armor for front position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 013-Body01
+  id: 14
+  int_plus: 0
+  kind: 2
+  mdef: 88
+  name: Iron Armor
+  pdef: 97
+  price: 1300
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Body armor for front position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 013-Body01
+  id: 15
+  int_plus: 0
+  kind: 2
+  mdef: 110
+  name: Steel Armor
+  pdef: 121
+  price: 3400
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Body armor for front position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 013-Body01
+  id: 16
+  int_plus: 0
+  kind: 2
+  mdef: 138
+  name: Mythril Armor
+  pdef: 152
+  price: 8500
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Body armor for front & middle position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 014-Body02
+  id: 17
+  int_plus: 0
+  kind: 2
+  mdef: 69
+  name: Bronze Plate
+  pdef: 74
+  price: 470
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Body armor for front & middle position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 014-Body02
+  id: 18
+  int_plus: 0
+  kind: 2
+  mdef: 86
+  name: Iron Plate
+  pdef: 92
+  price: 1100
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Body armor for front & middle position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 014-Body02
+  id: 19
+  int_plus: 0
+  kind: 2
+  mdef: 107
+  name: Steel Plate
+  pdef: 115
+  price: 2900
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Body armor for front & middle position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 014-Body02
+  id: 20
+  int_plus: 0
+  kind: 2
+  mdef: 134
+  name: Mythril Plate
+  pdef: 144
+  price: 7300
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Robe for rear position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 015-Body03
+  id: 21
+  int_plus: 0
+  kind: 2
+  mdef: 74
+  name: Cotton Robe
+  pdef: 70
+  price: 440
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Robe for rear position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 015-Body03
+  id: 22
+  int_plus: 0
+  kind: 2
+  mdef: 92
+  name: Felt Robe
+  pdef: 87
+  price: 1100
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Robe for rear position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 015-Body03
+  id: 23
+  int_plus: 0
+  kind: 2
+  mdef: 115
+  name: Magic Robe
+  pdef: 109
+  price: 2700
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Robe for rear position classes.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 015-Body03
+  id: 24
+  int_plus: 0
+  kind: 2
+  mdef: 144
+  name: Saint Robe
+  pdef: 136
+  price: 6800
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Ring that raises STR.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 016-Accessory01
+  id: 25
+  int_plus: 0
+  kind: 3
+  mdef: 0
+  name: Ring of Strength
+  pdef: 0
+  price: 2000
+  str_plus: 15
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Ring that raises DEX.
+  dex_plus: 15
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 016-Accessory01
+  id: 26
+  int_plus: 0
+  kind: 3
+  mdef: 0
+  name: Ring of Dextality
+  pdef: 0
+  price: 2000
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 15
+  auto_state_id: 0
+  description: Ring that raises AGI.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 016-Accessory01
+  id: 27
+  int_plus: 0
+  kind: 3
+  mdef: 0
+  name: Ring of Agility
+  pdef: 0
+  price: 2000
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Ring that raises INT.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: []
+
+  guard_state_set: []
+
+  icon_name: 016-Accessory01
+  id: 28
+  int_plus: 15
+  kind: 3
+  mdef: 0
+  name: Ring of Intelligence
+  pdef: 0
+  price: 2000
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Ring of the resistance to fire damage.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: 
+  - 1
+  guard_state_set: []
+
+  icon_name: 016-Accessory01
+  id: 29
+  int_plus: 0
+  kind: 3
+  mdef: 0
+  name: Ring of Fire
+  pdef: 0
+  price: 3000
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Ring of the resistance to ice damage.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: 
+  - 2
+  guard_state_set: []
+
+  icon_name: 016-Accessory01
+  id: 30
+  int_plus: 0
+  kind: 3
+  mdef: 0
+  name: Ring of Ice
+  pdef: 0
+  price: 3000
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Ring of the resistance to thunder damage.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: 
+  - 3
+  guard_state_set: []
+
+  icon_name: 016-Accessory01
+  id: 31
+  int_plus: 0
+  kind: 3
+  mdef: 0
+  name: Ring of Thunder
+  pdef: 0
+  price: 3000
+  str_plus: 0
+- !ruby/object:RPG::Armor 
+  agi_plus: 0
+  auto_state_id: 0
+  description: Ring of the resistance to water damage.
+  dex_plus: 0
+  eva: 0
+  guard_element_set: 
+  - 4
+  guard_state_set: []
+
+  icon_name: 016-Accessory01
+  id: 32
+  int_plus: 0
+  kind: 3
+  mdef: 0
+  name: Ring of Water
+  pdef: 0
+  price: 3000
+  str_plus: 0
