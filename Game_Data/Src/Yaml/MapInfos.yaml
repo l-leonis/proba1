@@ -1,9 +1,23 @@
 --- 
 root: 
   1: !ruby/object:RPG::MapInfo 
-    expanded: false
+    expanded: true
     name: MAP001
     order: 1
     parent_id: 0
     scroll_x: 320
     scroll_y: 240
+  2: !ruby/object:RPG::MapInfo 
+    expanded: false
+    name: MAP002
+    order: 2
+    parent_id: 0
+    scroll_x: 320
+    scroll_y: 240
+  3: !ruby/object:RPG::MapInfo 
+    expanded: false
+    name: MAP003
+    order: 3
+    parent_id: 0
+    scroll_x: 320
+    scroll_y: 320
