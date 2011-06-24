@@ -1309,7 +1309,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           parameters: 
           - 0
-          - 3
+          - 5
           - 0
           - 9
           - 0

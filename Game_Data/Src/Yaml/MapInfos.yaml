@@ -15,7 +15,7 @@ root:
     scroll_x: 320
     scroll_y: 320
   3: !ruby/object:RPG::MapInfo 
-    expanded: true
+    expanded: false
     name: MAP003
     order: 3
     parent_id: 0
@@ -33,5 +33,5 @@ root:
     name: MAP005
     order: 5
     parent_id: 0
-    scroll_x: 489
-    scroll_y: 844
+    scroll_x: 490
+    scroll_y: 355
